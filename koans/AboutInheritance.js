@@ -4,7 +4,7 @@ function Muppet(age, hobby) {
 
   this.answerNanny = function(){
 	return "Everything's cool!";
-  }
+  };
 }
 
 function SwedishChef(age, hobby, mood) {
@@ -13,7 +13,7 @@ function SwedishChef(age, hobby, mood) {
 
   this.cook = function() {
     return "Mmmm soup!";
-  }
+  };
 }
 
 SwedishChef.prototype = new Muppet();
